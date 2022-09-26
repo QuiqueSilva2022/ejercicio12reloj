@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>reloj 2</title>
+</head>
+
+<body onload="startTime()">
+    <div id="clockdate">
+        <div class="clockdate-wrapper">
+            <div id="clock"></div>
+            <div id="date"></div>
+        </div>
+    </div>
+    <!-- link js -->
+    <script src="./js/script.js"></script>
+</body>
+<!-- este reloj lo saque de internet, lamentablemente el ejercicio que dieron lo intente hacer vvarias veces y nunca me funciono, a partir de este que encontre en internet me pude dar cuenta un poco mejor como es el funcionamiento de java (les dejo el cosigo como lo escribi pero no me funciono de ninguna manera... HTML:  <body>
+    <h1>reloj</h1>
+    <form>
+        <imput type="text" size="10" name="mireloj">
+        </imput>
+        <p>mi reloj</p>
+    </form>
+    <script src="./js/script.js"></script>
+</html>
+JS:
+function ver_hora() {
+var mihora = new Date();
+var horas = mihora.getHours().toString();
+var minutos = mihora.getMinutes().toString();
+
+if (minutos.length == 1)
+minutos = "0" + minutos;
+
+var segundos = mihora.getSeconds().toString();
+if (segundos.length == 1)
+segundos = "0" + segundos;
+
+document.forms[0].mireloj.value = horas + ":" + minutos + " " + segundos;
+}
+var r = setInterval("var_hora()", 500);
+) -->
+
+</html>
